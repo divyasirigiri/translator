@@ -4,6 +4,10 @@ from flask import Flask, render_template, request
 from textblob import TextBlob
 
 from textblob import Word
+import nltk
+
+nltk.download('wordnet')
+nltk.download('punkt')
 
 app = Flask(__name__)
 
