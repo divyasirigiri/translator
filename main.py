@@ -17,7 +17,7 @@ def hello():
     return render_template('base.html')
 
 @app.route('/define',methods = ['POST'])
-def predict():
+def define():
     ip_word = request.form.get('ip-word')
     
     res = ' '.join(map(str, Word(ip_word).definitions))
