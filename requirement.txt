@@ -19,4 +19,4 @@ typing-extensions==3.10.0.0
 Werkzeug==2.0.1
 zipp==3.4.1
 textblob==0.15.3
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+nltk==3.0.0
