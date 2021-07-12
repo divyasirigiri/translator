@@ -26,7 +26,7 @@ def define():
     res = blob.translate(to=str(l2))
     # res = blob.translate(from_lang=str(l1),to=str(l2))
     
-    return render_template('base.html',translated_text=f'\n the meaning of the word {(ip_word)}  is :  {res}')
+    return render_template('base.html',translated_text=f'\n the translation of the text {(ip_word)} in {(l2)} is :  {res}')
 
 if __name__=='__main__':
     app1.run(debug=True)
